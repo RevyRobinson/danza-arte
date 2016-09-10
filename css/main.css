@@ -131,21 +131,36 @@ header a:hover {
 	margin-right: 0px; 
 }
 .height-fix {
+	border: 2px solid #192951;
 	height: 370px;
 	overflow: hidden;
 }
 .button-teachers {
 	position: absolute;
 	text-align: center;
-	width: 60%;
+	bottom:-340px;
+	left: 25%;
+	width: 50%;
+	margin-bottom: 23px;
 }
 .button-teachers a {
 	background-color: #192951;
 	display: block;
-	padding-top: 20px;
-	padding-bottom: 150px;
+	padding-top: 25px;
+	padding-bottom: 40px;
 	font-size: 25px;
 	color: white;
+	transition: all 0.8s ease;
+}
+.button-teachers a:hover {
+	background-color: #192951;
+	text-decoration: none;
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 40px;
+	font-size: 25px;
+	color: #0886E4;
+	transition: all 0.8s ease;
 }
 
 /*FRASE*/
