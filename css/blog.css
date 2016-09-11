@@ -1,1 +1,145 @@
-/* Inserta tu codigo aqui */
+/*HEADER*/
+header {
+	background-color: white;
+}
+header li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 5%;
+	padding-left: 5%;
+	letter-spacing: 2px;
+	font-size: 14px;
+}
+header ul {
+	padding: 0px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+header h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+header a {
+	color: rgb(83, 88, 95);
+	transition: all 0.8s ease;
+}
+header a:hover {
+	color: #192951;
+	transition: all 0.8s ease;
+}
+/*BLOG*/
+.blog {
+	background-color:  #f4f4f4;
+}
+.blog h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 30px;
+}
+.blog-box {
+	background-color: #dddee0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+.blog-image img{
+	width: 100%;
+	height: 289px;
+}
+.blog-image {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.blog-preview {
+	margin-left: 0px;
+}
+.blog-preview h3 {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.blog-preview h4 {
+	color: gray;
+	font-style: italic;
+}
+.blog-preview p {
+	font-size: 16px;
+	color: black;
+}
+.button-blog {
+	margin-top: 20px;
+	padding: 10px;
+	width: 200px;
+	background-color: #1a2952;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+}
+/*seccion CONTACTO*/
+.contact-section {
+	background-image: url(../img/shoes_!.jpg);
+	background-position: right;
+	width:90%;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+.contact-form {
+	padding-left: 10px;
+	margin-top: 50px;
+}
+.contact-section h1 {
+	margin-top: 50px;
+	color: #192951;
+	font-weight: bold;
+}
+.input-contact {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 20px;
+	border: 1px solid gray;
+	padding: 5px;
+	padding-left: 45px;
+}
+.input-mensaje {
+	width: 100%;
+	height: 150px;
+	margin-bottom: 20px;
+	border: 1px solid gray;
+	padding: 5px;
+	padding-left: 45px;
+	padding-top: 5px;
+
+}
+.button-submit {
+	background-color: #192951;
+	display: block;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 25px;
+	color: white;
+	text-transform: uppercase;
+	transition: all 0.8s ease;
+}
+.button-submit:hover {
+	background-color: white ;
+	display: block;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 25px;
+	color: #192951;
+	text-transform: uppercase;
+	transition: all 0.8s ease;
+}
+/*footer*/
+footer{
+	background-color: #192951;
+	height: 100px;
+}
+footer p {
+	padding-top: 50px;
+	color: white;
+}
