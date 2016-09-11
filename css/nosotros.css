@@ -37,11 +37,154 @@ header a:hover {
 	transition: all 0.8s ease;
 }
 /*jumbotron*/
-.jumbotron {
-	background-image: url(../img/dance_7.jpg);
+.banner-about {
 	width: 100%;
-	height: 380px;
+	background-image: url(../img/dance_7.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 500px;
+}
+.opacity-box {
+	margin-top: 10%;
+	background-color: black;
+	opacity: 0.5;
+	height: 270px;
 }
 .about {
-	padding: 30px;
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	right: 10%;
+	text-align: center;
+}
+.about h1 {
+	color: white;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.about p {
+	font-size: 18px;
+	color: white;
+	padding-top: 10px;
+}
+/*Pilar section*/
+.pilar-section {
+	background-image: url(../img/cubes.png);
+	height: 370px;
+	color: gray;
+	text-align: center;
+}
+.title-pilar {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 80%;
+	border-bottom: 1px solid  black;
+}
+.pilar-lorem {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 80%;
+	font-size: 16px;
+}
+/*Instructores*/
+.instructores h1 {
+	padding-top: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.instructor-box {
+	height: 200px;
+	overflow: hidden;
+}
+.instructores img {
+	width: 100%;
+}
+.instructores h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.instructores p {
+	font-size: 16px;
+}
+.contenedor-instructor {
+	padding-bottom: 70px;
+	padding-top: 40px;
+}
+/*frase*/
+.frase h1{
+ 	font-style: italic;
+ 	font-size: 35px;
+ 	text-align: center;
+ 	padding-bottom: 80px;
+ 	margin-top: 80px;
+}
+.banner2 {
+	background-image: url(../img/textura_2.jpg);
+	text-align: center;
+}
+/*seccion CONTACTO*/
+.contact-section {
+	background-image: url(../img/shoes_!.jpg);
+	background-position: right;
+	width:90%;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+.contact-form {
+	padding-left: 10px;
+	margin-top: 50px;
+}
+.contact-section h1 {
+	margin-top: 50px;
+	color: #192951;
+	font-weight: bold;
+}
+.input-contact {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 20px;
+	border: 1px solid gray;
+	padding: 5px;
+	padding-left: 45px;
+}
+.input-mensaje {
+	width: 100%;
+	height: 150px;
+	margin-bottom: 20px;
+	border: 1px solid gray;
+	padding: 5px;
+	padding-left: 45px;
+	padding-top: 5px;
+
+}
+.button-submit {
+	background-color: #192951;
+	display: block;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 25px;
+	color: white;
+	text-transform: uppercase;
+	transition: all 0.8s ease;
+}
+.button-submit:hover {
+	background-color: white ;
+	display: block;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 25px;
+	color: #192951;
+	text-transform: uppercase;
+	transition: all 0.8s ease;
+}
+/*footer*/
+footer{
+	background-color: #192951;
+	height: 100px;
+}
+footer p {
+	padding-top: 50px;
+	color: white;
 }
